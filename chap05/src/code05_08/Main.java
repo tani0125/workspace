@@ -1,0 +1,15 @@
+package code05_08;
+
+public class Main {
+	public static int add(int x, int y) {
+		int ans = x + y;
+		return ans;
+		//return x + y;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(add(add(10, 20), add(30, 40)));
+		//System.out.println(add(30, 70));
+		//System.out.println(100);
+	}
+}
